@@ -8,7 +8,9 @@ const newapp = new Vue(
     {
         el: '#container',
         data: {
-            textTitle: 'Il tuo messaggio qui'
+            textTitle: 'Il tuo messaggio qui',
+            imgPath: 'img/infinitypool.jpg',
+            imgAlt: 'Infinity Pool Image'
         }
     }
 );
